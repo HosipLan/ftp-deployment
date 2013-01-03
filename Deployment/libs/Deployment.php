@@ -295,7 +295,7 @@ class Deployment
 	 * @param  string
 	 * @return array
 	 */
-	private function collectFiles($dir)
+	protected function collectFiles($dir)
 	{
 		$list = array();
 		$iterator = dir(".$dir");
