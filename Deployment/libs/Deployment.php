@@ -333,7 +333,7 @@ class Deployment
 	 * @param  string  file name
 	 * @return string  file name
 	 */
-	private function preprocess($file)
+	protected function preprocess($file)
 	{
 		static $cache;
 		$file = realpath($file);
